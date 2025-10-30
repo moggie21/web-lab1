@@ -95,6 +95,10 @@ footer {
     border-top-right-radius: 0;
 }
 
+.link-navigation:hover {
+    opacity: 0.8;
+}
+
 .window-content-header, .window-content-aboutme{
     display: flex;
     align-items: center;
