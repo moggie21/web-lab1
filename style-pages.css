@@ -110,8 +110,17 @@ footer {
     justify-content: space-between;
 }
 
+.pack {
+    width: 250px;
+}
+
+.pack-img {
+    width: 250px;
+}
+
 .pack-text {
     text-align: center;
+    margin-top: 10px;
 }
 
 .window-footer {
