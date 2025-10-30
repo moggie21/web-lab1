@@ -16,6 +16,7 @@ nav {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 15px;
 }
 
 main {
@@ -70,6 +71,21 @@ footer {
     margin: 4px;
 }
 
+.link-navigation {
+    border-style: solid;
+    border-color: #03274B;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    width: 170px;
+    box-shadow: 5px 5px #03274B;
+}
+
+.link-navigation:hover {
+    opacity: 0.8;
+}
+
 .window-content{
     padding: 30px;
     background-color: #fff;
@@ -80,7 +96,6 @@ footer {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
-
 
 .window-content-shelf {
     display: flex;
